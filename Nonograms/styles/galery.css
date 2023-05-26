@@ -1,0 +1,15 @@
+#current-level {
+    background: #dddddd;
+    border-radius: 5vmin;
+    padding: 5vmin;
+    margin: 10vmin;
+    font-size: 10vmin;
+}
+#level-selection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.disable-btn {
+    background-color: #555555;
+}

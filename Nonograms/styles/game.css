@@ -1,0 +1,47 @@
+
+
+#game {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#buttons {
+	background-color: #555;
+	border-radius: 5vmin;
+	padding: 5vmin;
+	margin: 2.5vmin;
+}
+
+#img-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.img-btn {
+	min-width: 7.5vmin;
+	min-height: 7.5vmin;
+	background-color: transparent;
+	border-radius: 50%;
+	color: #4CAF50;
+	padding: 1vmin;
+	margin: 2vmin;
+	background-size: contain;
+}
+
+#btn-reset {
+	background-image: url(../imgs/reset.svg);
+}
+
+#btn-tip {
+	background-image: url(../imgs/tip.svg);
+}
+#btn-about {
+	background-image: url(../imgs/question.svg);
+}
+
+@media(orientation: portrait) {
+	#game {
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,51 @@
+#game-board {
+    background-color: #555;
+    border-radius: 5vmin;
+    padding: 3vmin;
+    margin: 2.5vmin;
+}
+
+.compound-cell {
+    background: #ccc;
+    border-radius: 0vmin;
+    border: 1vmin solid #333;
+    margin: 0;
+    padding: 0;
+}
+#crossword-field {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    background: #333;
+}
+
+#column-field, #row-field {
+    border-collapse: collapse;
+}
+.cell-filled, .cell-point, .cell-empty {
+    cursor: pointer;
+}
+.cell-empty, .cell-filled {
+    content: none;
+}
+.cell-filled {
+    background: #111;
+}
+
+.num, .num-empty, .cell-empty, .cell-filled, .cell-point {
+	width: 5vmin;
+    height: 5vmin;
+    border: 2px solid #333;
+    text-align: center;
+    font-size: 4vmin;
+    font-weight: bold;
+}
+.cell-empty, .cell-point {
+    background: #dddddd;
+}
+.cell-empty:hover, .cell-point:hover {
+    background: aliceblue;
+}
+.cell-filled:hover {
+    background: #222;
+}

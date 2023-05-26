@@ -1,0 +1,12 @@
+.btn-submit {
+    margin-top: 10vmin;
+    width: 100%;
+} 
+.signin-text {
+    margin-top: 5vmin;
+    text-align: center;
+}
+.container {
+    max-width: 80vmin;
+}
+

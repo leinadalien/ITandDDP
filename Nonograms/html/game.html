@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nonograms Game</title>
+    <link rel="stylesheet" type="text/css" href="../styles/universal.css">
+    <link rel="stylesheet" type="text/css" href="../styles/gameboard.css">
+    <link rel="stylesheet" type="text/css" href="../styles/game.css">
+    <link rel="stylesheet" type="text/css" href="../styles/win_window.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <main class="container">
+        <h5 id="timer">Прошло: 0 с</h5>
+        <section id="game">
+            <section id="game-board">
+                <table id="crossword-board">
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td class="compound-cell">
+                                <table id="column-field">
+                                
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="compound-cell">
+                                <table id="row-field">
+                                </table>
+                            </td>
+                            <td class="compound-cell">
+                                <table id="crossword-field">
+                                
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="buttons">
+                <section id="img-buttons">
+                    <button class="img-btn" id="btn-reset"></button>
+                    <button class="img-btn" id="btn-tip"></button>
+                    <button class="img-btn" id="btn-about"></button>
+                </section>
+
+                <button id="another-level">
+                    Другой уровень
+                </button>
+                <button onclick="window.location.href = 'galery.html'">
+                    Все уровни
+                </button>
+            </section>
+        </section>
+    </main>
+    <div id="modal" class="modal">
+        <div class="modal_container">
+            <div id="close_modal">+</div>
+            <div class="modal_content"> Победа!</div>
+        </div>
+    </div>
+    <script type="module" src="../scripts/load_level.js"></script>
+</body>
+</html>
